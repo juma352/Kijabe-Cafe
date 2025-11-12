@@ -1,0 +1,21 @@
+/* Simple auth styles to match the provided screenshot */
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif}
+.bg{position:fixed;inset:0;background-image:url('/Images/KH-5.jpg');background-size:cover;background-position:center;filter:brightness(0.45);z-index:0}
+.topbar{position:fixed;right:40px;top:24px;z-index:3}
+.logo-text{color:#fff;font-weight:700;letter-spacing:2px;font-size:20px}
+.login-main{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;z-index:2}
+.login-card{width:380px;background:rgba(0,0,0,0.55);padding:32px;border-radius:8px;color:#fff;box-shadow:0 10px 30px rgba(0,0,0,0.6)}
+.login-title{margin:0 0 18px 0;font-size:22px;display:flex;align-items:center}
+.login-form .field{position:relative;margin-bottom:14px}
+.login-form input[type=text],.login-form input[type=email],.login-form input[type=password],.login-form select{width:100%;padding:12px 44px 12px 14px;border-radius:6px;border:1px solid rgba(255,255,255,0.08);background:rgba(255,255,255,0.03);color:#fff;font-size:15px}
+.field-icon{position:absolute;right:12px;top:50%;transform:translateY(-50%);opacity:0.9}
+.actions{display:flex;align-items:center;justify-content:space-between;margin-top:14px}
+.btn{background:#e74c3c;border:none;color:#fff;padding:10px 18px;border-radius:6px;cursor:pointer;font-weight:600}
+.links{margin-top:12px;display:flex;justify-content:space-between;font-size:13px}
+.links a{color:#f0f0f0;opacity:0.9;text-decoration:none}
+.error{color:#ff6b6b;margin-top:6px;font-size:13px}
+.remember input{margin-right:8px}
+.role-label{display:block;margin-bottom:6px;color:#ddd;font-size:13px}
+.back-link{color:#fff;opacity:0.85;text-decoration:none}
+@media(max-width:420px){.login-card{width:92%;padding:20px;margin:10px}}
