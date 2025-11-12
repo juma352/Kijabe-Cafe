@@ -57,8 +57,6 @@ The Kijabe Hospital POS System is designed to streamline hospital retail operati
 ### 🚧 Upcoming Features (Production Roadmap)
 
 #### Enhanced Payment Features
-- [ ] **Cash Payment Support**: Manual cash transaction recording
-- [ ] **Payment Refunds**: Refund processing for M-Pesa and cash payments
 - [ ] **Split Payments**: Multiple payment methods for single transaction
 - [ ] **Payment Analytics**: Detailed payment method analytics
 
@@ -66,8 +64,6 @@ The Kijabe Hospital POS System is designed to streamline hospital retail operati
 - [ ] **Inventory Alerts**: Email/SMS notifications for low stock
 - [ ] **Supplier Management**: Vendor tracking and purchase orders
 - [ ] **Inventory Forecasting**: Predictive stock level recommendations
-- [ ] **Barcode Scanning**: Product identification via barcode
-- [ ] **Batch Tracking**: Expiry date management for medical supplies
 
 #### Reporting & Analytics
 - [ ] **Advanced Reports**: Sales, inventory, and financial reports
@@ -332,7 +328,7 @@ This project is proprietary software developed for Kijabe Hospital. All rights r
 ## 🆘 Support
 
 For support and questions:
-- **Email**: support@kijabepos.com
+- **Email**: jumaleon58@gmail.com
 - **Documentation**: [Project Wiki](https://github.com/yourusername/kijabe-pos/wiki)
 - **Issues**: [GitHub Issues](https://github.com/yourusername/kijabe-pos/issues)
 
